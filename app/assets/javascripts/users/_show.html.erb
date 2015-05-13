@@ -1,0 +1,25 @@
+<h3>Health Care Newsletter Registration Details</h3>
+<table class="table table-user-information">
+  <tbody>
+    <tr>
+      <td>Full Name:</td>
+      <td>{{user.full_name}}</td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td>{{user.email}}</td>
+    </tr>
+    <tr>
+      <td>Mobile:</td>
+      <td>{{user.mobile}}</td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>{{user.gender}}</td>
+    </tr>
+    <tr>
+      <td>Subscribed Topics:</td>
+      <td>{{user.topics_subscribed.join(", ")}}</td>
+    </tr>
+  </tbody>
+</table>
